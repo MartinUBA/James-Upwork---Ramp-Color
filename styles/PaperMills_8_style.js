@@ -22,7 +22,7 @@ var style_PaperMills_8 = function(feature, resolution){
     }
     var style = [ new ol.style.Style({
         image: new ol.style.RegularShape({radius: 4.0 + size, points: 3,
-            stroke: new ol.style.Stroke({color: 'rgba(224,224,224,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.76}), fill: new ol.style.Fill({color: 'rgba(123,123,123,1.0)'})}),
+            stroke: new ol.style.Stroke({color: 'rgba(168,168,168,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.0}), fill: new ol.style.Fill({color: 'rgba(101,101,101,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)

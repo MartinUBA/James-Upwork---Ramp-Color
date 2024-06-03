@@ -6,7 +6,7 @@ var style_PaperMillsRiceTOP_20_9 = function(feature, resolution){
         feature: feature,
         variables: {}
     };
-    var value = feature.get("VALUE Rice");
+    var value = feature.get("Rice");
     var labelText = "";
     size = 0;
     var labelFont = "10.4px \'Open Sans\', sans-serif";
